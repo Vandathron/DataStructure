@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\source\\repos\\DataStructure\\DataStructure.csproj": {}
+    "/home/van/Documents/Codes/DataStructure/DataStructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\repos\\DataStructure\\DataStructure.csproj": {
+    "/home/van/Documents/Codes/DataStructure/DataStructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\DataStructure\\DataStructure.csproj",
+        "projectUniqueName": "/home/van/Documents/Codes/DataStructure/DataStructure.csproj",
         "projectName": "DataStructure",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\DataStructure\\DataStructure.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\DataStructure\\obj\\",
+        "projectPath": "/home/van/Documents/Codes/DataStructure/DataStructure.csproj",
+        "packagesPath": "/home/van/.nuget/packages/",
+        "outputPath": "/home/van/Documents/Codes/DataStructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/van/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +50,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     }

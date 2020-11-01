@@ -73,8 +73,8 @@ namespace DataStructure
             //Console.WriteLine(InsertionSort.firstRepeatedWord(sen));
             //List<int> g = new List<int>(new int[] { 37, 7, 22, 15, 49, 60 });
             //InsertionSort.goodSegment(g, 3, 48);
-            List<int> ranked = new List<int>(new int[] { 100, 100, 50, 40, 40, 20, 10 });
-            List<int> player = new List<int>(new int[] { 5, 25, 50, 120 });
+            List<int> ranked = new List<int>(new int[] { 100, 90, 90, 80, 75, 60});
+            List<int> player = new List<int>(new int[] { 50, 65, 77,90, 102 });
 
             ClimbingTheLeaderBoard.SolutionOne( ranked, player);
         }

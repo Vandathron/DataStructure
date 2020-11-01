@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dJX0p0cN/+GDLEhTukn+bY713skd3HZpoY3GByVIic+B/kygO9lO8JhEv7yXFLtYi8bzUrgYIohnqPv5DY5YPA==",
+  "dgSpecHash": "0bUuccPxz8aHdy/JIKn7i1pbOLcW8Ql99Al+FBI+6Jvy7qjUHUD7P6GYy/JhyFW+oitrVf3FbFsP7WHHQI+Wgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\source\\repos\\DataStructure\\DataStructure.csproj",
+  "projectFilePath": "/home/van/Documents/Codes/DataStructure/DataStructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
