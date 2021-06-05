@@ -13,6 +13,7 @@
     <Folder Include="Leetcode\Contest\" />
     <Folder Include="DesignPattern\" />
     <Folder Include="DesignPattern\Singleton\" />
+    <Folder Include="DesignPattern\factory\" />
   </ItemGroup>
 
   <ItemGroup>

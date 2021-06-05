@@ -24,4 +24,29 @@ namespace DataStructure.DesignPattern.Singleton
             return logger;
         }
     }
+
+
+    public class SingletonTwo
+    {
+        private SingletonTwo()
+        {
+
+        }
+
+        private static SingletonTwo instance;
+
+
+        public static SingletonTwo Instance
+        {
+            get
+            {
+                if(instance == null)
+                {
+                    instance = new SingletonTwo();
+                }
+
+                return Instance;
+            }
+        }
+    }
 }

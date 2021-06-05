@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{AB9F02FE-E84C-4304-88B8-CCAF98946BBF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DesignPattern/factory/BasicCalculation.cs">
     <Files>
       <File FileName="DS/Arrays.cs" Line="8" Column="1" />
       <File FileName="Leetcode/Contest/LatestTime.cs" />
@@ -12,25 +12,12 @@
       <File FileName="Sorting/MergeSort.cs" />
       <File FileName="Union.cs" />
       <File FileName="Searching/BinarySearch.cs" />
-      <File FileName="DesignPattern/Singleton/Logger.cs" Line="18" Column="14" />
+      <File FileName="DesignPattern/Singleton/Logger.cs" />
+      <File FileName="DesignPattern/Singleton/Employee.cs" />
+      <File FileName="DesignPattern/factory/BasicCalculation.cs" Line="29" Column="1" />
       <File FileName="Sorting/BubbleSort.cs" Line="47" Column="14" NotebookId="1" />
-      <File FileName="Program.cs" Line="17" Column="1" NotebookId="1" />
+      <File FileName="Program.cs" NotebookId="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="DataStructure" expanded="True">
-            <Node name="DataStructure" expanded="True">
-              <Node name="DesignPattern" expanded="True">
-                <Node name="Singleton" expanded="True" />
-              </Node>
-              <Node name="Sorting" expanded="True" />
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.DataStructure PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

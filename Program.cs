@@ -6,6 +6,7 @@ using System.Linq;
 using DataStructure.Sorting;
 using DataStructure.Hackerank.Medium;
 using DataStructure.DesignPattern.Singleton;
+using DataStructure.DesignPattern.factory;
 
 namespace DataStructure
 {
@@ -53,6 +54,25 @@ namespace DataStructure
 
             Console.WriteLine(loggerObj.GetHashCode());
             Console.WriteLine(loggerObj2.GetHashCode());
+
+            //SingletonTwo sgt = SingletonTwo.Instance;
+
+            //Factory pattern
+
+            BasicCalculationFactory factory = new BasicCalculationFactory();
+
+            double num1, num2;
+
+            Console.WriteLine("Enter first number");
+            Double.TryParse(Console.ReadLine(), out num1);
+
+
+            Console.WriteLine("Enter second number");
+            Double.TryParse(Console.ReadLine(), out num2);
+
+            ICalculate calculator = factory.getCalculation("divide");
+
+            calculator.calculate(num1, num2);
 
         }
     }
