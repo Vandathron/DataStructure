@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/van/Documents/Codes/DataStructure/DataStructure.csproj": {}
+    "/Users/user/Documents/personal/DataStructure/DataStructure.csproj": {}
   },
   "projects": {
-    "/home/van/Documents/Codes/DataStructure/DataStructure.csproj": {
+    "/Users/user/Documents/personal/DataStructure/DataStructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/van/Documents/Codes/DataStructure/DataStructure.csproj",
+        "projectUniqueName": "/Users/user/Documents/personal/DataStructure/DataStructure.csproj",
         "projectName": "DataStructure",
-        "projectPath": "/home/van/Documents/Codes/DataStructure/DataStructure.csproj",
-        "packagesPath": "/home/van/.nuget/packages/",
-        "outputPath": "/home/van/Documents/Codes/DataStructure/obj/",
+        "projectPath": "/Users/user/Documents/personal/DataStructure/DataStructure.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Documents/personal/DataStructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/van/.nuget/NuGet/NuGet.Config"
+          "/Users/user/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -50,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

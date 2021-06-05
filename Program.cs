@@ -5,6 +5,7 @@ using DataStructure.Searching;
 using System.Linq;
 using DataStructure.Sorting;
 using DataStructure.Hackerank.Medium;
+using DataStructure.DesignPattern.Singleton;
 
 namespace DataStructure
 {
@@ -13,8 +14,6 @@ namespace DataStructure
         static void Main(string[] args)
         {
             CustomLinkList<int> numbers = new CustomLinkList<int>();
-
-
 
             BFS.Node source = new BFS.Node(1);
             source.neighbours.AddFirst(new BFS.Node(2));
@@ -47,36 +46,14 @@ namespace DataStructure
                 {1, 3, 4, 4, 4, 4 }
             };
 
-            //Searching algorithms
+            // Singleton pattern
+            Logger loggerObj = Logger.GetInstance();
 
-            LinearSearch searcher = new LinearSearch();
+            Logger loggerObj2 = Logger.GetInstance();
 
-            BinarySearch bSearcher = new BinarySearch();
+            Console.WriteLine(loggerObj.GetHashCode());
+            Console.WriteLine(loggerObj2.GetHashCode());
 
-            // bSearcher.rankBasedProblem();
-
-            //bSearcher.BishuAndSoldiers();
-
-            //bSearcher.CImpressEveryone();
-
-            BubbleSort bubbleSort = new BubbleSort();
-
-            //bubbleSort.practice();
-            SelectionSort selectionSort = new SelectionSort();
-
-            //int[] houses = new int[] { 2, 1, 1, 2 };
-            //Console.WriteLine(selectionSort.Rob(houses));
-
-            InsertionSort insertion = new InsertionSort();
-
-            //string sen = "We work because hard work pays.";
-            //Console.WriteLine(InsertionSort.firstRepeatedWord(sen));
-            //List<int> g = new List<int>(new int[] { 37, 7, 22, 15, 49, 60 });
-            //InsertionSort.goodSegment(g, 3, 48);
-            List<int> ranked = new List<int>(new int[] { 100, 90, 90, 80, 75, 60});
-            List<int> player = new List<int>(new int[] { 50, 65, 77,90, 102 });
-
-            ClimbingTheLeaderBoard.SolutionOne( ranked, player);
         }
     }
 }
