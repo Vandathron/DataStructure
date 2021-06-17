@@ -98,9 +98,17 @@
               "target": "Package",
               "version": "[16.5.0, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             },
             "xunit.analyzers": {
               "target": "Package",

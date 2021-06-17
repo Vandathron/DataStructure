@@ -94,3 +94,7 @@
 /Users/user/Documents/personal/DataStructure/DataStructure.Tests/obj/Debug/netcoreapp3.1/DataStructure.Tests.dll
 /Users/user/Documents/personal/DataStructure/DataStructure.Tests/obj/Debug/netcoreapp3.1/DataStructure.Tests.pdb
 /Users/user/Documents/personal/DataStructure/DataStructure.Tests/obj/Debug/netcoreapp3.1/DataStructure.Tests.genruntimeconfig.cache
+/Users/user/Documents/personal/DataStructure/DataStructure.Tests/bin/Debug/netcoreapp3.1/Castle.Core.dll
+/Users/user/Documents/personal/DataStructure/DataStructure.Tests/bin/Debug/netcoreapp3.1/Moq.dll
+/Users/user/Documents/personal/DataStructure/DataStructure.Tests/bin/Debug/netcoreapp3.1/DataStructure.dll
+/Users/user/Documents/personal/DataStructure/DataStructure.Tests/bin/Debug/netcoreapp3.1/DataStructure.pdb

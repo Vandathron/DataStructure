@@ -14,12 +14,18 @@
     <Folder Include="DesignPattern\" />
     <Folder Include="DesignPattern\Singleton\" />
     <Folder Include="DesignPattern\factory\" />
+    <Folder Include="Lambda\" />
+    <Folder Include="algoXpat\" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="DataStructureTest\Leetcode\LatestTimeTest.cs" />
     <Compile Remove="DataStructureTest\obj\Debug\netcoreapp3.1\DataStructureTest.AssemblyInfo.cs" />
     <Compile Remove="DataStructureTest\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Remove="DataStructure.Tests\obj\Debug\netcoreapp3.1\DataStructure.Tests.AssemblyInfo.cs" />
+    <Compile Remove="DataStructure.Tests\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Remove="DataStructure.Tests\UnitTest1.cs" />
+    <Compile Remove="DataStructure.Tests\SelectionTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="DataStructureTest\obj\Debug\netcoreapp3.1\DataStructureTest.csprojAssemblyReference.cache" />
@@ -122,5 +128,98 @@
     <None Remove="DataStructureTest\obj\Debug\netcoreapp3.1\DataStructureTest.csproj.CopyComplete" />
     <None Remove="DataStructureTest\obj\Debug\netcoreapp3.1\DataStructureTest.csproj.CoreCompileInputs.cache" />
     <None Remove="DataStructureTest\obj\Debug\netcoreapp3.1\DataStructureTest.dll" />
+    <None Remove="DataStructure.Tests\obj\DataStructure.Tests.csproj.nuget.g.targets" />
+    <None Remove="DataStructure.Tests\obj\DataStructure.Tests.csproj.nuget.g.props" />
+    <None Remove="DataStructure.Tests\obj\DataStructure.Tests.csproj.nuget.dgspec.json" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\testhost.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\xunit.abstractions.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\DataStructure.Tests.deps.json" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\xunit.core.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\DataStructure.Tests.runtimeconfig.json" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\DataStructure.Tests.pdb" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\DataStructure.Tests.runtimeconfig.dev.json" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CommunicationUtilities.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\xunit.assert.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\DataStructure.Tests.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="DataStructure.Tests\obj\project.nuget.cache" />
+    <None Remove="DataStructure.Tests\obj\project.assets.json" />
   </ItemGroup>
 </Project>
