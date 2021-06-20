@@ -16,6 +16,8 @@
     <Folder Include="DesignPattern\factory\" />
     <Folder Include="Lambda\" />
     <Folder Include="algoXpat\" />
+    <Folder Include="Files\" />
+    <Folder Include="Events\" />
   </ItemGroup>
 
   <ItemGroup>

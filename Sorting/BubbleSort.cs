@@ -69,7 +69,6 @@ namespace DataStructure.Sorting
                         elements[j] = elements[j + 1];
                         elements[j + 1] = temp;
                     }
-                    
                 }
             }
 

@@ -7,6 +7,7 @@ using DataStructure.Sorting;
 using DataStructure.Hackerank.Medium;
 using DataStructure.DesignPattern.Singleton;
 using DataStructure.DesignPattern.factory;
+using DataStructure.Files;
 
 namespace DataStructure
 {
@@ -51,10 +52,6 @@ namespace DataStructure
             Logger loggerObj = Logger.GetInstance();
 
             Logger loggerObj2 = Logger.GetInstance();
-
-            Console.WriteLine(loggerObj.GetHashCode());
-            Console.WriteLine(loggerObj2.GetHashCode());
-
             //SingletonTwo sgt = SingletonTwo.Instance;
 
             //Factory pattern
@@ -76,6 +73,10 @@ namespace DataStructure
 
             SelectionSort sorter = new SelectionSort();
             sorter.excercise("2 4 5 7 9 5 3 1");
+
+            BasicFile filer = BasicFile.getInstance();
+
+            filer.findAndDisplayUniqueWordFrequency("/Users/user/Documents/myFile.txt");
 
         }
     }
