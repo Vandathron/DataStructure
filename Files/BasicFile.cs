@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 
 namespace DataStructure.Files
 {
@@ -39,10 +41,31 @@ namespace DataStructure.Files
         {
             try
             {
-                String[] readBuffer = File.ReadAllBytes(filePath).Select(x => x.ToString()).ToArray();
-                foreach (String b in readBuffer)
+                String readBuffer = Encoding.Default.GetString(File.ReadAllBytes(filePath));
+                List<String> texts = readBuffer.Split(" ").ToList();
+                Dictionary<String, int> uniqueTexts = new Dictionary<string, int>();
+
+                foreach (var text in texts)
                 {
-                    Console.Write(b);
+                    if (!uniqueTexts.ContainsKey(text))
+                    {
+                        for (int i = 0; i < texts.Count; i++)
+                        {
+                            if(text == texts[i])
+                            {
+                                uniqueTexts[text]++;
+                                texts.RemoveAt(i);
+                            }
+                        }
+                    } else
+                    {
+                        uniqueTexts.Add(text, 1);
+                    }
+                }
+
+                for (int i = 0; i < uniqueTexts.Count; i++)
+                {
+                    Console.Write(uniqueTexts.Values);
                 }
             }
             catch (UnauthorizedAccessException)
