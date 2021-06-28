@@ -28,6 +28,8 @@
     <Compile Remove="DataStructure.Tests\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
     <Compile Remove="DataStructure.Tests\UnitTest1.cs" />
     <Compile Remove="DataStructure.Tests\SelectionTest.cs" />
+    <Compile Remove="DataStructure.Tests\TokenBucketTest.cs" />
+    <Compile Remove="DataStructure.Tests\LRUCacheTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="DataStructureTest\obj\Debug\netcoreapp3.1\DataStructureTest.csprojAssemblyReference.cache" />
@@ -223,5 +225,19 @@
     <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
     <None Remove="DataStructure.Tests\obj\project.nuget.cache" />
     <None Remove="DataStructure.Tests\obj\project.assets.json" />
+    <None Remove="DataStructure.Tests\mono_crash.11a6748113.0.json" />
+    <None Remove="DataStructure.Tests\obj\Debug\netcoreapp3.1\DataStructure.Tests.csproj.FileListAbsolute.txt" />
+    <None Remove="DataStructure.Tests\obj\Debug\netcoreapp3.1\DataStructure.Tests.csprojAssemblyReference.cache" />
+    <None Remove="DataStructure.Tests\obj\Debug\netcoreapp3.1\DataStructure.Tests.csproj.CopyComplete" />
+    <None Remove="DataStructure.Tests\obj\Debug\netcoreapp3.1\DataStructure.Tests.pdb" />
+    <None Remove="DataStructure.Tests\obj\Debug\netcoreapp3.1\DataStructure.Tests.genruntimeconfig.cache" />
+    <None Remove="DataStructure.Tests\obj\Debug\netcoreapp3.1\DataStructure.Tests.csproj.CoreCompileInputs.cache" />
+    <None Remove="DataStructure.Tests\obj\Debug\netcoreapp3.1\DataStructure.Tests.AssemblyInfoInputs.cache" />
+    <None Remove="DataStructure.Tests\obj\Debug\netcoreapp3.1\DataStructure.Tests.assets.cache" />
+    <None Remove="DataStructure.Tests\obj\Debug\netcoreapp3.1\DataStructure.Tests.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\Castle.Core.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\DataStructure.pdb" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\DataStructure.dll" />
+    <None Remove="DataStructure.Tests\bin\Debug\netcoreapp3.1\Moq.dll" />
   </ItemGroup>
 </Project>

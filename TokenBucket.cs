@@ -3,8 +3,8 @@ namespace DataStructure
 {
     public class TokenBucket
     {
-        private  double MaxBucketSize;
-        private  double bucketRefillRate;
+        private double MaxBucketSize;
+        private double bucketRefillRate;
 
         private double currentBucketSize;
         private DateTime lastRefillDate;
@@ -18,11 +18,11 @@ namespace DataStructure
             lastRefillDate = DateTime.Now;
         }
 
-        private bool allowRequest(int requestToken)
+        public bool allowRequest(int requestToken)
         {
             fillBucket();
 
-            if(requestToken <= currentBucketSize)
+            if (requestToken <= currentBucketSize)
             {
                 currentBucketSize -= requestToken;
                 return true;
@@ -30,14 +30,15 @@ namespace DataStructure
             return false;
         }
 
-        private void  fillBucket()
+        private void fillBucket()
         {
             DateTime now = GetDate();
             double tokenToAdd = now.Subtract(lastRefillDate).TotalSeconds * bucketRefillRate;
-            currentBucketSize = Math.Min(currentBucketSize+tokenToAdd, MaxBucketSize);
+            currentBucketSize = Math.Min(currentBucketSize + tokenToAdd, MaxBucketSize);
             lastRefillDate = DateTime.Now;
         }
 
-        private DateTime GetDate() => DateTime.Now;
+        public DateTime GetDate() => DateTime.Now;
     }
+
 }
