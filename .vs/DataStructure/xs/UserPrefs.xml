@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{75CD02E5-8259-4E67-8E19-C5573981DB82}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="LRUCache.cs">
     <Files>
-      <File FileName="DataStructure.Tests/LRUCacheTest.cs" Line="36" Column="1" IsPinned="True" />
+      <File FileName="DataStructure.Tests/LRUCacheTest.cs" Line="48" Column="47" IsPinned="True" />
       <File FileName="QFlow.cs" />
       <File FileName="DS/Futa.cs" />
       <File FileName="Sorting/InsertionSort.cs" />
@@ -17,30 +17,12 @@
       <File FileName="DS/Arrays.cs" NotebookId="1" />
       <File FileName="Sorting/SelectionSort.cs" NotebookId="1" />
       <File FileName="DataStructure.Tests/TokenBucketTest.cs" NotebookId="1" />
-      <File FileName="LRUCache.cs" Line="34" Column="47" NotebookId="1" />
+      <File FileName="LRUCache.cs" Line="69" Column="10" NotebookId="1" />
     </Files>
     <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="DataStructure" expanded="True">
-            <Node name="DataStructure" expanded="True">
-              <Node name="algoXpat" expanded="True" />
-              <Node name="Sorting" expanded="True" />
-              <Node name="LRUCache.cs" selected="True" />
-            </Node>
-            <Node name="DataStructure.Tests" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="DataStructure" expanded="True">
-            <Node name="DataStructure.Tests" expanded="True">
-              <Node name="DataStructure.Tests" expanded="True">
-                <Node name="LRUCacheTest" expanded="True" selected="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="DataStructure" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

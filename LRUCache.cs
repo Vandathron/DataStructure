@@ -21,31 +21,29 @@ namespace DataStructure
         {
             if (!Cache.ContainsKey(key)) return null;
             String value = (string) Cache[ key];
+            Node node = new Node(key, value);
+            RemoveFromList(node);
+            MakeLatestNode(node);
             return value;
         }
 
         public void Put(String key, String value)
         {
+            Node node = new Node(key, value);
             if (Cache.Contains(key))
             {
                 Cache[key] = value;
-                Node node = new Node(key, value);
+                node = new Node(key, value);
                 RemoveFromList(node);
-                MakeLatestNode(node);
-                return;
-            }
-
-            if (CacheIsFull())
+            } else
             {
-                RemoveOldestCache();
+                if (CacheIsFull())
+                {
+                    RemoveOldestCache();
+                }
                 AddCache(key, value);
-                MakeLatestNode(new Node(key, value));
             }
-            else
-            {
-                AddCache(key, value);
-                MakeLatestNode(new Node(key, value));
-            }
+            MakeLatestNode(node);
         }
 
         private void MakeLatestNode(Node node)
@@ -62,6 +60,7 @@ namespace DataStructure
         private void RemoveOldestCache()
         {
             Cache.Remove(Nodes.Last.Value.Key);
+            Nodes.RemoveLast();
             CurrentCacheCapacity++;
         }
 
