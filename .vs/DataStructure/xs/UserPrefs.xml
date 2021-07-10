@@ -1,28 +1,24 @@
-﻿<Properties StartupConfiguration="{75CD02E5-8259-4E67-8E19-C5573981DB82}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LRUCache.cs">
+﻿<Properties StartupConfiguration="{AB9F02FE-E84C-4304-88B8-CCAF98946BBF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Result.cs">
     <Files>
-      <File FileName="DataStructure.Tests/LRUCacheTest.cs" Line="48" Column="47" IsPinned="True" />
-      <File FileName="QFlow.cs" />
-      <File FileName="DS/Futa.cs" />
-      <File FileName="Sorting/InsertionSort.cs" />
-      <File FileName="Sorting/MergeSort.cs" />
-      <File FileName="Union.cs" />
-      <File FileName="Searching/BinarySearch.cs" />
-      <File FileName="DesignPattern/Singleton/Logger.cs" />
-      <File FileName="DesignPattern/Singleton/Employee.cs" />
-      <File FileName="DesignPattern/factory/BasicCalculation.cs" />
-      <File FileName="Files/BasicFile.cs" />
-      <File FileName="TokenBucket.cs" />
-      <File FileName="algoXpat/RemoveDuplicateLinkedList.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="DS/Arrays.cs" NotebookId="1" />
-      <File FileName="Sorting/SelectionSort.cs" NotebookId="1" />
-      <File FileName="DataStructure.Tests/TokenBucketTest.cs" NotebookId="1" />
-      <File FileName="LRUCache.cs" Line="69" Column="10" NotebookId="1" />
+      <File FileName="LRUCache.cs" Line="18" Column="22" />
+      <File FileName="Leetcode/Hard/LRUCacheHard.cs" />
+      <File FileName="Sorting/BubbleSort.cs" Line="51" Column="10" />
+      <File FileName="Program.cs" Line="82" Column="57" />
+      <File FileName="Result.cs" Line="67" Column="29" />
     </Files>
     <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+      <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DataStructure" expanded="True" selected="True" />
+          <Node name="DataStructure" expanded="True">
+            <Node name="DataStructure" expanded="True">
+              <Node name="Leetcode" expanded="True">
+                <Node name="Easy" expanded="True" />
+              </Node>
+              <Node name="Sorting" expanded="True" />
+              <Node name="Result.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

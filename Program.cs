@@ -71,13 +71,22 @@ namespace DataStructure
 
             //calculator.calculate(num1, num2);
 
-            SelectionSort sorter = new SelectionSort();
-            sorter.excercise("2 4 5 7 9 5 3 1");
+            //SelectionSort sorter = new SelectionSort();
+            //sorter.excercise("2 4 5 7 9 5 3 1");
 
-            BasicFile filer = BasicFile.getInstance();
+            //BasicFile filer = BasicFile.getInstance();
 
-            filer.findAndDisplayUniqueWordFrequency("/Users/user/Documents/myFile.txt");
+            //filer.findAndDisplayUniqueWordFrequency("/Users/user/Documents/myFile.txt");
 
+            List<int> arr = new List<int>() {-1, 1, 2, 3,-5 };
+           List<int> res =  Result.meanderingArray(arr);
+
+            //for(int i = 0; i < res.Count; i++)
+            //{
+            //    Console.WriteLine(res[i]);
+            //}
+
+            Console.Write(BalancingParent.getMin("(()))(())(("));
         }
     }
 }

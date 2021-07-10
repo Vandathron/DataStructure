@@ -7,14 +7,15 @@ namespace DataStructure
 {
     public class LRUCache
     {
-        private Hashtable Cache;
+        private Hashtable Cache = new Hashtable();
         public LinkedList<Node> Nodes = new LinkedList<Node>();
+        public Dictionary<string, string> cache = new Dictionary<string, string>();
+
         public int CurrentCacheCapacity { get; private set; }
 
         public LRUCache(int cacheCapacity)
         {
             CurrentCacheCapacity = cacheCapacity;
-            this.Cache = new Hashtable(capacity: cacheCapacity);
         }
 
         public string Get(string  key)
@@ -71,7 +72,7 @@ namespace DataStructure
 
         private bool CacheIsFull()
         {
-            return Cache.Count == CurrentCacheCapacity;
+            return CurrentCacheCapacity == 0;
         }
     }
 
